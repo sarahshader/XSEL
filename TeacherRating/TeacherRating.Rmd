@@ -1,0 +1,88 @@
+---
+title: "TeacherRating"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# library
+library(ggplot2)
+library(data.table)
+library(reshape2)
+
+# create matrix
+mat <- matrix(nrow=5, ncol=5)
+
+# colors
+ca = "#f9d1b7"
+cb = "#fbdeb7"
+cc = "#feeeb7"
+cd = "#fefcc9"
+ce = "#f6fbc9"
+cf = "#d4e7c7"
+cg = "#c7e1b5"
+ch = "#aed494"
+ci = "#99c979"
+
+colors = c(ca, cb, cc, cd, ce, cf, cg, ch, ci)
+
+# add colors to matrix
+count = 1
+for(i in 1:5){
+   mat[6-i,] = colors[count:(count+4)]
+   count = count + 1
+}
+
+# melt, creates data template with all "" for values
+template <- melt(mat, value.name = "color", varnames=c("aversive", "skilled"))
+template = cbind(template, value="")
+
+# data
+data = read.csv("beh_rating_sample_data.csv")
+
+# creates frequency chart of actual data
+freq_table <- table(data$Skilled_Score, data$Aversive_Score, 
+  dnn = c("skilled", "aversive"))
+
+# melt frequencies  
+freq_data = melt(freq_table)
+
+# add data frequencies to data template
+for(i in 1:nrow(freq_data)){
+   row = ((freq_data$skilled[i]-1) * 5 + freq_data$aversive[i])
+   template$value[row] = freq_data$value[i]
+}
+
+# turn 0's to ""
+for(i in 1:nrow(template)){
+   if(template$value[i] == "0") {
+      template$value[i] = ""
+   }
+}
+
+
+# Heatmap 
+# x and y axes 
+g <- ggplot(template, aes(skilled, aversive, fill=color)) + 
+# reverse y axis   
+   scale_y_reverse()+
+#   scale_x_discrete(position = "top")
+# label axes
+  labs(title="Classroom Level", y= "Problem Behavior", x = "Positive Behavior") +
+# set axes scale
+  expand_limits(x=c(1,5), y=c(1, 5)) +
+#background colours are mapped according to the value column
+  geom_raster(show.legend = FALSE) +
+# set colors
+  scale_fill_identity() +
+# write the values  
+  geom_text(aes(fill = value, label = value)) +
+# remove padding, hide legendv  
+  theme(panel.background = element_blank(),
+        legend.position = "none") 
+# set tiles as squares  
+#  coord_fixed()  
+        
+plotly::ggplotly(g)
+

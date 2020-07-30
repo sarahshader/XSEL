@@ -1,0 +1,43 @@
+Pawn,Timepoint,first_name,last_name,student_id,birthdate,Grade,Teacher First Name,Teacher Last Name,School,District,Project,Skilled_Baseline,Skilled_Score,Aversive_Baseline,Aversive_Score
+69972,1,,,1000039,9/29/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70013,1,,,1000080,8/23/08,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70030,1,,,1000097,7/18/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70172,1,,,1000239,8/20/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70196,1,,,1000263,7/18/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70237,1,,,1000304,2/22/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70262,1,,,1000329,9/29/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70291,1,,,1000358,8/23/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70358,1,,,1000425,5/6/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70516,1,,,1000583,3/30/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70540,1,,,1000607,9/29/08,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70600,1,,,1000667,12/11/08,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70602,1,,,1000669,9/29/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70607,1,,,1000674,6/11/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70611,1,,,1000678,11/4/08,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70735,1,,,1000802,7/18/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70765,1,,,1000832,12/11/08,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+70820,1,,,1000887,8/23/09,5,S,Chatoor,Medina Elementary,Bellevue,Bellevue,,,,
+69960,1,,,1000027,8/20/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+69971,1,,,1000038,8/20/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,4,,1
+70037,1,,,1000104,9/29/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,3,,3
+70055,1,,,1000122,8/23/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,4,,2
+70142,1,,,1000209,3/30/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,3,,1
+70177,1,,,1000244,8/20/10,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+70252,1,,,1000319,12/11/08,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,3,,3
+70287,1,,,1000354,5/6/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+70295,1,,,1000362,1/16/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+70297,1,,,1000364,11/4/08,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,2
+70419,1,,,1000486,9/29/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,4,,1
+70480,1,,,1000547,1/16/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,3,,4
+70512,1,,,1000579,5/6/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,2
+70551,1,,,1000618,9/29/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+70586,1,,,1000653,6/11/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,4,,1
+70591,1,,,1000658,6/11/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,2
+70633,1,,,1000700,11/4/08,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,4,,2
+70637,1,,,1000704,8/23/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+70664,1,,,1000731,8/24/10,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,2
+70732,1,,,1000799,1/16/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+70736,1,,,1000803,9/29/08,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,4,,1
+70785,1,,,1000852,3/30/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+70815,1,,,1000882,2/22/09,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,5,,1
+70822,1,,,1000889,9/29/08,5,Nadia,Jessa,Cherry Crest Elementary,Bellevue,Bellevue,,4,,3
